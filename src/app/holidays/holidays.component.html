@@ -1,0 +1,25 @@
+<P></P>
+
+<div form__group  >
+    <label>Enter country code</label>
+    <input type="text" [(ngModel)]="country">
+    <label>Enter year</label>
+    <input type="text" [(ngModel)]="year">
+    <label>Enter month</label>
+    <input type="text" [(ngModel)]="month">
+    <label>Enter day</label>
+    <input type="text" [(ngModel)]="day">
+    <button (click)="getHolidays()">Search</button>
+
+    <div class="card" *ngFor="let holidays of Holidays">
+        <span>NAME:{{holidays.name}}</span>
+        <span>COUNTRY:{{holidays.country}}</span>
+        <!-- <span> DESCRIPTION:{{holidays.description}}</span> -->
+       <span>  DAY: {{holidays.week_day}}</span>
+      
+
+    </div>
+</div>
+
+
+

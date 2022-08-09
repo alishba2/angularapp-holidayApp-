@@ -5,9 +5,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 # Functionality
 The Public Holiday API allows you to gett the public, local, religious, and other holidays of a particular country.
 Enter CODE OF COUNTRY
-ENTER YEAR
-ENTER MONTH
-ENTER DAY
+ENTER YEAR----.
+ENTER MONTH----.
+ENTER DAY-----.
 Response will contain the NAME OF THE HOLIDAY AND DAY OF THE HOLIDAY
 
 ## Development server
